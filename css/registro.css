@@ -1,0 +1,100 @@
+body{
+    background-image: url("../images/Inicio/1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    }
+
+.Ventana-registro{
+    border-radius: 10px;
+    width: 400px;
+    height: 480px;
+    background: red;
+    opacity: 80%;
+    color: white;
+    top: 40%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -30%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    }
+
+.Ventana-registro .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 50px);
+    }
+
+.Ventana-registro h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    }
+
+.Ventana-registro label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    }
+
+.Ventana-registro input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    }
+
+.Ventana-registro input[type="text"],
+.Ventana-registro input[type="password"]{
+    border: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    }
+
+.Ventana-registro input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0080FF;
+    color:white ;
+    font-size: 16px;
+    border-radius: 20px;
+    }
+
+.Ventana-registro a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgray;
+    }
+
+h1{"
+    text-align: center;
+    color:white;
+    opacity: 100%;
+    }
+
+.Titulo{
+    background-color:#D01414;
+    color: black;
+    text-align: center;
+    font-style: inherit;
+    transition: all 1s ease;
+    border: 2px solid;
+    padding: 0.5em 0.5em;
+    border-radius: 10px;
+    width: 50%;
+    padding: 0px;
+    opacity: 80%;
+    }

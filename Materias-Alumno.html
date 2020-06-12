@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Materias de Alumno</title>
+        <link rel="stylesheet" href="css/inicio.css">
+    </head>
+    <body>
+        <div class="Ventana-Materias">
+            <img class="avatar" src="images/inicio/2.png" alt="logoQR">
+            <h1>Seleciona tu una materia para ver tus asistencias:</h1>
+            <form method="POST">
+                <!--Laber de Sus materias-->
+                <label for="Materias">Sus materias</label>
+                <!--Materias-->
+                <input type="submit" value="Calculo" name="Calculo" onclick="this.form.action='php/Calculo.php'">
+                <input type="submit" value="Redes" onclick="this.form.action='php/verifi-alumnos.php'">
+                
+                <!--Cerrar secion-->
+                <div class="Cerrar-sesion">
+                <input type="submit" value="Cerrar Sesion" onclick="this.form.action='php/CerrarConexion.php'">
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
+
+
